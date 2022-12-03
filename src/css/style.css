@@ -1,0 +1,116 @@
+html{
+    font-family: 'Roboto Mono', monoespacial;
+    /* background-color: rgba(79, 79, 187, 0.589); */
+    background-color: #30035C;
+    /* #2E0B3B */
+    /* background-color: #1F013F; */
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    background-color:  #3E0672;
+    border-bottom: 1px solid rgba(145, 138, 138, 0.151);
+}
+
+.titulo{
+    font-size: 39px;
+    color: rgba(255, 255, 255, 0.842);   
+}
+
+span{
+    color: rgba(220, 20, 60, 0.637);
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+}
+
+.menu li a{
+    padding: 20px;
+    transition: 0.6s ease-in-out;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+li a:hover{
+     color: rgba(62, 62, 235, 0.836);
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'Roboto' sans-serif;
+    font-size: 31px;
+    margin: 19px 0px 50px 38px ;
+}
+
+main{
+    width: 1224px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 1224px;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    width: 1224px; 
+    background-color: white;
+}
+
+.flex{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.flex img{
+    max-width: 100%;
+
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    background-color: #1F013F;
+    flex: 0 1 250px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.842);
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    color: rgba(255, 255, 255, 0.842);
+    margin-bottom: 10px;
+}
+
+.botao{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(155, 138, 175);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    color: white;
+}
+

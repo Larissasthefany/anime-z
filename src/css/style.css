@@ -1,27 +1,29 @@
 html{
     font-family: 'Roboto Mono', monoespacial;
-    /* background-color: rgba(79, 79, 187, 0.589); */
-    background-color: #30035C;
-    /* #2E0B3B */
-    /* background-color: #1F013F; */
+    /* background-color: #30035C; */
+    background-color: rgba(17, 17, 17, 0.986);
 }
 
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 50px;
-    background-color:  #3E0672;
+    padding-top: 40px;
+    /* background-color:  #3E0672; */
+    /* background-color: rgba(29, 28, 28, 0.979); */
+    background-color: rgba(46, 46, 105, 0.767);
     border-bottom: 1px solid rgba(145, 138, 138, 0.151);
 }
 
 .titulo{
     font-size: 39px;
-    color: rgba(255, 255, 255, 0.842);   
+    color: rgba(255, 255, 255, 0.842);  
 }
 
 span{
-    color: rgba(220, 20, 60, 0.637);
+    /* color: rgba(220, 20, 60, 0.637); */
+    color: rgba(0, 128, 0, 0.616);
+    font-size: 50px;
 }
 
 .menu{
@@ -37,7 +39,7 @@ span{
     cursor: pointer;
 }
 
-li a:hover{
+.menu li a:hover{
      color: rgba(62, 62, 235, 0.836);
 }
 
@@ -49,28 +51,28 @@ h1{
 }
 
 main{
-    width: 1224px;
+    width: 900px;
     margin-top: 100px;
     margin: auto;
 }
 
 section{
     display: flex;
-    justify-content: space-between;
-    width: 1224px;
+    justify-content: space-evenly;
+    /* width: 1224px; */
+    flex-wrap: wrap;
 }
 
 .conteudo{
     display: flex;
     align-items: center;
-    width: 1224px; 
-    background-color: white;
+    /* width: 1224px;  */
 }
 
 .flex{
     display: flex;
     max-width: 100%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     border-radius: 10px;
 }
 
@@ -83,7 +85,9 @@ section{
     display: flex;
     flex-direction: column;
     margin: 1em;
-    background-color: #1F013F;
+    /* background-color: #1F013F; */
+    /* background-color: rgba(36, 35, 35, 0.459); */
+    background-color: rgba(46, 46, 105, 0.767);
     flex: 0 1 250px;
 }
 
@@ -92,11 +96,13 @@ h3{
     font-weight: 700;
     color: rgba(255, 255, 255, 0.842);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400; 
+    text-align: center;
     color: rgba(255, 255, 255, 0.842);
     margin-bottom: 10px;
 }
@@ -108,9 +114,10 @@ p{
     width: 50%;
     margin-bottom: 20px;
     text-align: center;
-    background-color: rgb(155, 138, 175);
+    background-color: rgb(44, 21, 70);
     font-family: 'Roboto', sans-serif;
     border-radius: 20px;
     color: white;
 }
+
 

@@ -1,28 +1,30 @@
-html{
-    font-family: 'Roboto Mono', monoespacial;
-    /* background-color: #30035C; */
-    background-color: rgba(17, 17, 17, 0.986);
+@font-face {
+    font-family: 'titulo';
+    src: url(../font/WHOA\ SAUCE\ PERSONAL\ USE.ttf);
 }
+
+html{
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
 
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 40px;
-    /* background-color:  #3E0672; */
-    /* background-color: rgba(29, 28, 28, 0.979); */
-    background-color: rgba(46, 46, 105, 0.767);
-    border-bottom: 1px solid rgba(145, 138, 138, 0.151);
+    /* border-bottom: 2px solid rgb(124, 122, 122); */
+    background-color: rgba(6, 6, 63, 0.849);
 }
 
 .titulo{
-    font-size: 39px;
-    color: rgba(255, 255, 255, 0.842);  
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.842); 
+    font-family: 'titulo'; 
 }
 
 span{
-    /* color: rgba(220, 20, 60, 0.637); */
-    color: rgba(0, 128, 0, 0.616);
+    color: rgba(15, 235, 15, 0.616);
     font-size: 50px;
 }
 
@@ -37,6 +39,7 @@ span{
     color: rgba(255, 255, 255, 0.842);
     font-size: 24px;
     cursor: pointer;
+    font-family: 'Public Sans', sans-serif;;
 }
 
 .menu li a:hover{
@@ -44,8 +47,9 @@ span{
 }
 
 h1{
-    color: rgba(255, 255, 255, 0.842);
-    font-family: 'Roboto' sans-serif;
+    /* color: rgba(255, 255, 255, 0.842); */
+    color: rgba(0, 0, 0, 0.733);
+    font-family: 'Public Sans', sans-serif;;
     font-size: 31px;
     margin: 19px 0px 50px 38px ;
 }
@@ -59,7 +63,7 @@ main{
 section{
     display: flex;
     justify-content: space-evenly;
-    /* width: 1224px; */
+    width: 1224px;
     flex-wrap: wrap;
 }
 
@@ -72,8 +76,12 @@ section{
 .flex{
     display: flex;
     max-width: 100%;
-    /* flex-wrap: wrap; */
-    border-radius: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.247);
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    background-color: white;
+    flex-wrap: wrap;
 }
 
 .flex img{
@@ -85,10 +93,9 @@ section{
     display: flex;
     flex-direction: column;
     margin: 1em;
-    /* background-color: #1F013F; */
-    /* background-color: rgba(36, 35, 35, 0.459); */
-    background-color: rgba(46, 46, 105, 0.767);
     flex: 0 1 250px;
+    /* background-color: rgba(8, 8, 8, 0.712); */
+    background-color: rgba(6, 6, 63, 0.849);
 }
 
 h3{

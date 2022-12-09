@@ -38,13 +38,24 @@
         padding: 15px 23px;
     }
 
-    .menu li a{
+    .menu li {
         padding: 15px 23px;
     }
 
-    .title{
-        overflow: hidden;
-        width: 20px;
+    
+
+    .title h4{
+        line-height: 50px;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .title h4::after{
+        position: absolute;
+        left: 80px;
+        top: 6px;
+
     }
 
     main{
@@ -55,8 +66,9 @@
     }
 
     section{
-        margin: 0 auto;
+        margin:  auto;
     }
+
 
 }
 

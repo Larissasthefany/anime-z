@@ -86,22 +86,31 @@ section{
     flex-wrap: wrap;
 }
 
-.conteudo{
-    display: flex;
-    align-items: center;
-    /* width: 1200px;  */
-}
 
 .flex{
     display: flex;
     max-width: 100%;
     margin-bottom: 50px;
+    /* box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1); */
 }
 
 .flex img{
-    max-width: 100%;
+    width: 100%;
+    display: block;
     border-radius: 10px;
+}
 
+.flex:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    /* box-shadow: 0 0 40px -10px rgba(255, 255, 255, 0.165); */
+    /* border-radius: 10px; */
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    /* width: 1200px;  */
 }
 
 .ep{

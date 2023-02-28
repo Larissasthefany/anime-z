@@ -14,11 +14,7 @@
      .titulo{
          flex-direction: column;
          /* margin-top: 50px; */
-     }
-     .menu li{
-         /* display: flex; */
-     }
- 
+     } 
 
 }
 
@@ -33,12 +29,12 @@
         flex-direction: column;
     }
 
-    .menu {
+    .nav-bar {
         display: inline;
         padding: 15px 23px;
     }
 
-    .menu li {
+    .nav-bar li {
         padding: 15px 23px;
     }
 
